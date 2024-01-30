@@ -2,7 +2,7 @@
 
 * Студент: [Женя](https://up.htmlacademy.ru/htmlcss/39/user/2042157).
 * Наставник: [Олег Зайцев](https://htmlacademy.ru/profile/ozi).
-
+* Сайт: [Мой проект Седона](https://unusefull.github.io/2042157-sedona-39/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
