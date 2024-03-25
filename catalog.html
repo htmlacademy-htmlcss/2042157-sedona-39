@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Гостиницы</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -40,6 +41,8 @@
     </nav>
   </header>
   <main class="main-inner">
+    <div class="catalog-main-header">
+      <div class="catalog-main-breadcrumbs">
     <h1 class="inner-header-title">Гостиницы Седоны</h1>
     <ol class="breadcrumps">
       <li class="breadcrumps-item">
@@ -51,6 +54,7 @@
         <a class="breadcrumps-link breadcrumps-link">Гостиницы</a>
       </li>
     </ol>
+      </div>
     <section class="filters">
       <h2 class="visually-hidden">Фильтры</h2>
       <form class="catalog-filter" action="http://echo.htmlacademy.ru/" method="get">
@@ -111,6 +115,7 @@
         </fieldset>
       </form>
     </section>
+    </div>
     <section class="catalog-product">
       <h2 class="catalog-filter-title">Найдено гостиниц:<span>38</span></h2>
       <select class="search-control" aria-label="Сортировка">
@@ -158,7 +163,7 @@
           <p class="product-card-type">Гостиница</p>
           <p class="product-card-price">От 5000 ₽</p>
           <a class="product-card-button" href="#">Подробнее</a>
-          <a class="add-favourite-button" href="#">В избранное</a>
+          <a class="add-favourite-button selected" href="#">В избранное</a>
           <p class="product-card-stars product-card-stars-4"><span class="visually-hidden">4 звезды</span></p>
           <p class="product-card-rating">Рейтинг: <span>9,2</span></p>
         </li>
